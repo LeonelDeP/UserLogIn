@@ -125,6 +125,7 @@ public class Principal extends javax.swing.JFrame {
         int seleccion = fc.showDialog(null, "Abrir");
         
         logic.cargarArchivo(fc.getSelectedFile().getPath());
+        
     }//GEN-LAST:event_menu_AbrirActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
